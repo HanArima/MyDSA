@@ -1,0 +1,7 @@
+1. 
+Building a Source file using VS code means compiling the file using a compiler. After building an executable file is created with '.exe'        extension. 
+It was bothering me a lot because the source code and the executable file was in the same directory. 
+Using settings and 'Exclude file'I excluded the .exe file by adding it using 'add pattern'
+
+2.
+MinGW is a GNU GCC based compiler that compiles and links the code to be run on Win32.
