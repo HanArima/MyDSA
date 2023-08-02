@@ -4,13 +4,13 @@ using namespace std;
 int update(int **p)
 {
     // p = p + 1;
-    // kuch change hoga?? - No;
+    // kuch change hoga?? - NO
 
     *p = *p + 1;
-    // kuch change hoga?? -
+    // kuch change hoga?? - YES
 
     //**p = **p + 1;
-    // kuch change hoga?? -
+    // kuch change hoga?? - YES
 }
 int main()
 {
