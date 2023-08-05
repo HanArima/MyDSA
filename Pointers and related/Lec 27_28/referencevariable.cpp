@@ -25,12 +25,14 @@ int main()
     cout << ++k << endl;
 
     cout << "---------------------------------------" << endl;
-    cout << "Call by Value" << endl;
+    // New memory is created 
+    cout << "Pass by Value" << endl;
     cout << "Before: " << i << endl;
     update(i);
     cout << "After: " << i << endl <<endl;
 
-    cout << "Call by Reference" << endl;
+    // No new memory is created
+    cout << "Pass by Reference" << endl;
     cout << "Before: " << i << endl;
     updateRV(i);
     cout << "After: " << i << endl;
