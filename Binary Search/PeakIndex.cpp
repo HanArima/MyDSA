@@ -12,7 +12,7 @@ int s=0;
                s = mid;
            }
            else{
-               end = mid-1;
+               e = mid-1;
            }
          mid= s+(e-s)/2;
         }
