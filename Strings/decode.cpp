@@ -14,7 +14,7 @@ string decode(string s){
             string str = "";
             while(!result.empty() && result.back() != '['){
                 str.push_back(result.back());
-                result.pop_back();
+                result.pop_back();-
             }
             // step 2
             reverse(str.begin(), str.end());
